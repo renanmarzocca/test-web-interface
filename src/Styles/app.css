@@ -1,0 +1,11 @@
+/* Global Styles */
+html, body {
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.ant-menu-light.ant-menu-horizontal > .ant-menu-item:hover::after {
+  border-bottom: 1px solid #EB6625;
+}
